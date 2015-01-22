@@ -24,4 +24,4 @@ function runTests(client_tokens) {
     }
 }
 
-require('./tests/access.tests.js')(expect, db, runTests);
+require('./tests/access.tests.js')(superagent, expect, db, runTests);
